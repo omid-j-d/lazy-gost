@@ -44,4 +44,4 @@ systemctl restart gost$number
 
 systemctl start gost$number
 
-systemctl status gost&number
+systemctl status gost$number
