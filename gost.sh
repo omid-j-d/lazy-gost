@@ -4,13 +4,13 @@ tar -xvzf gost_3.0.0-rc7_linux_amd64.tar.g
 
 #!/bin/bash
 
-read -p "Select 'iran' or 'outside': " choice
+read -p "Select 'i' or 'o': " choice
 
 read -p "Enter the port number: " port
 
 read -p "Enter the service number: " number
 
-if [[ "$choice" == "iran" ]]; then
+if [[ "$choice" == "i" ]]; then
 
   read -p "Enter the domain name: " domain
 
