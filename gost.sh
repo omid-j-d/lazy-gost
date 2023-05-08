@@ -36,6 +36,10 @@ Type=simple
 
 ExecStart=/root/gost $execstart
 
+Restart=always
+
+RestartSec=3
+
 [Install]
 
 WantedBy=multi-user.target" > /etc/systemd/system/gost$number.service
