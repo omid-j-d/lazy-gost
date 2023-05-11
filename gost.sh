@@ -1,6 +1,8 @@
 wget https://github.com/go-gost/gost/releases/download/v3.0.0-rc7/gost_3.0.0-rc7_linux_amd64.tar.gz
 
-tar -xvzf gost_3.0.0-rc7_linux_amd64.tar.g
+tar -xvzf gost_3.0.0-rc7_linux_amd64.tar.gz
+
+rm -r gost_3.0.0-rc7_linux_amd64.tar.gz.1
 
 #!/bin/bash
 
