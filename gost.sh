@@ -11,7 +11,7 @@ read -p "Enter the service number: " number
 
 if [[ "$choice" == "i" ]]; then
   read -p "Enter the domain name: " domain
-  execstart="-L=tcp://:$port -F forward+tls://$domain:2056?secure=true&serverName=$domain"
+  execstart="-L=tcp://:$port -F forward+tls://$domain:$tport?secure=true&serverName=$domain"
 else
   execstart="-L=tls://:$tport/:$port?cert=/root/c.crt&key=/root/p.key"
 fi
