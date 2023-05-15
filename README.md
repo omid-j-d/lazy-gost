@@ -5,7 +5,7 @@
 
 دانلود فایل های مورد نیاز و تنظیمات اولیه (در هردو سرور اجرا شود) : 
 
-/b apt install git -y
+apt install git -y
 git clone https://github.com/omid-j-d/lazy-gost
 cp /root/lazy-gost/gost.sh /root/
 chmod +x gost.sh
