@@ -4,8 +4,8 @@
 قدم اول
 
 دانلود فایل های مورد نیاز و تنظیمات اولیه (در هردو سرور اجرا شود) : 
-
-``` apt install git -y
+```
+apt install git -y
 git clone https://github.com/omid-j-d/lazy-gost
 cp /root/lazy-gost/gost.sh /root/
 chmod +x gost.sh
@@ -13,8 +13,8 @@ chmod +x gost.sh
 
 
 این دستور فقط در سرور خارج اجرا شود 
-
-```cp /root/lazy-gost/ssl.sh /root/
+```
+cp /root/lazy-gost/ssl.sh /root/
 chmod +x ssl.sh
 ```
 
