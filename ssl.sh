@@ -2,7 +2,6 @@
 
 read -p "Enter domain name: " domain
 read -p "Enter your email: " email
-apt install curl socat -y
 
 curl https://get.acme.sh | sh
 
