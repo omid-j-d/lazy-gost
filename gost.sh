@@ -1,8 +1,16 @@
-wget https://github.com/go-gost/gost/releases/download/v3.0.0-rc7/gost_3.0.0-rc7_linux_amd64.tar.gz
-tar -xvzf gost_3.0.0-rc7_linux_amd64.tar.gz
-rm -r gost_3.0.0-rc7_linux_amd64.tar.gz
+
 
 #!/bin/bash
+
+if [ ! -f gost ]; then
+
+  wget https://github.com/go-gost/gost/releases/download/v3.0.0-rc7/gost_3.0.0-rc7_linux_amd64.tar.gz
+
+  tar -xvzf gost_3.0.0-rc7_linux_amd64.tar.gz
+
+  rm gost_3.0.0-rc7_linux_amd64.tar.gz
+
+fi
 
 read -p "Select 'i' for internal and 'o' for outside server : " choice
 read -p "Enter the port number: " port
