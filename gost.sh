@@ -4,7 +4,7 @@
 
 if [ ! -f gost ]; then
 
-  wget https://github.com/go-gost/gost/releases/download/v3.0.0-rc8/gost_3.0.0-rc8_linux_arm64.tar.gz
+  wget https://github.com/go-gost/gost/releases/download/v3.0.0-rc8/gost_3.0.0-rc8_linux_amd64.tar.gz
   tar -xvzf gost_3.0.0-rc8_linux_arm64.tar.gz
   rm gost_3.0.0-rc8_linux_arm64.tar.gz
 
